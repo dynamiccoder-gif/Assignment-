@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css" />
+  
+  
+  <title>Dynamic Progress Bar</title>
+</head>
+
+<body>
+ <body>
+  <div class="Menu">
+  <h1 style="color: rgb(255, 255, 255);">Driving license Renewal</h1>
+  <div class="base">
+    <div id="progress-bar">
+        <div id="progress" style="width: 0"></div>
+      </div>
+<div class="carousel">
+  <h2 style="color: rgb(139, 20, 20);">Let get started</h2>
+      <p style="color: rgb(182, 58, 58);">Add your details (As per registration record)</p>
+  <div class="slider">
+    
+    <div class="slide">
+     
+      <form>
+        
+          <div class="question input-field">
+            <h4>NAME </h4>
+            <input type="text" id="input2" class="text-input" maxlength="50" placeholder="Enter the name" />
+          </div>
+          
+            
+          
+  
+    
+          <div class="question radio-setup">
+            <h4>Nature of Driving License</h4>
+            <div style="display: flex; width: 91%;  ">
+             <div style="width: 50%; display: flex; align-items: flex-start;">
+            <input type="radio" name="radio1" class="radio-btn " value="Private" />
+           Private </div>
+           <div style="width:50%; display:flex; align-items:flex-start;">
+            <input type="radio" name="radio1" class="radio-btn" value="Commercial" />
+            Commercial</div>
+          </div>
+          </div>
+          <div class="question radio-setup">
+            <h4>Type of Previous Driving License</h4>
+            <div style="display: flex; width: 91%; ">
+              <div style="width: 50%; display: flex; align-items: flex-start;">
+            <input type="radio" name="radio2" class="radio-btn " value="Paper" />
+           Paper Driving License </div>
+           <div style="width: 50%; display: flex; align-items: flex-start;">
+            <input type="radio" name="radio2" class="radio-btn" value="Smart" />
+            Smart Driving License</div>
+          </div>
+          </div>
+          
+      </form>
+    </div>
+    <div class="slide">
+   
+      <form>
+        
+        <div class="question input-field">
+          <h4 >Place Where Driving License Issued</h4>
+          <input type="text" id="input2" class="text-input" maxlength="50" />
+        </div>
+       
+        <div class="question"> 
+          <div class="dropdown input-field" >
+           <h4>Issued Year Of License</h4>
+            <select class="select-box dropdown-button " id="select2"  onfocus='this.size=5;' onblur='this.size=1;' onchange='this.size=1; this.blur();'>
+              <option value="">Select Option</option>
+              <option value="2024">2024</option>
+              <option value="2023">2023</option>
+              <option value="2022">2022</option>
+              <option value="2021">2021</option>
+              <option value="2020">2020</option>
+              <option value="2019">2019</option>
+              <option value="2018">2018</option>
+              <option value="2017">2017</option>
+              <option value="2016">2016</option>
+          </select>
+        </div>
+      </div>
+             
+        <div class="question"> 
+          <div class="dropdown input-field" >
+           <h4>Expired Year Of Previous Driving License</h4>
+            <select class="select-box dropdown-button " id="select2"  onfocus='this.size=5;' onblur='this.size=1;' onchange='this.size=1; this.blur();'>
+              <option value="">Select Option</option>
+              <option value="2024">2024</option>
+              <option value="2023">2023</option>
+              <option value="2022">2022</option>
+              <option value="2021">2021</option>
+              <option value="2020">2020</option>
+              <option value="2019">2019</option>
+              <option value="2018">2018</option>
+              <option value="2017">2017</option>
+              <option value="2016">2016</option>
+          </select>
+        </div>
+      </div>
+          
+            
+      </form>
+    </div>
+  </div>
+  
+</div>
+
+  <div class="prev-next-button">
+<button class="prev">Previous</button>
+  <button class="next">Next</button>
+</div>
+  </div>
+</div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
