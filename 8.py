@@ -5,10 +5,11 @@ n =int(input())
 
 repeat = lambda num : n==num
 l1 =list(filter(repeat,tuple1))
-if(len(l1)==0):
-    print("not repeted")
+print(len(l1))
+if(len(l1)>1):
+    print("repeated")
 else:
-    print("repeted")
+    print(" not repeated")
 
 
 
