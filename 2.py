@@ -1,4 +1,7 @@
-list1 = [1,2,3,4,5,6,7,8,9]
-square = lambda n: n*2
-squares= list(map(square, list1))
-print(squares)
+numbers = [19, 65, 57, 39, 152, 639, 121, 44, 90, 190]
+
+result = list(filter(lambda x: (x % 19 == 0 or x % 13 == 0), numbers))
+
+
+print("Original list:", numbers)
+print("Numbers divisible by 19 or 13:", result)
