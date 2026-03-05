@@ -1,12 +1,16 @@
-list1 =[('English', 88), ('Science', 90), ('Maths', 97), ('Social sciences', 82)]
-list1.sort(key=lambda x: x[1])
-print(list1)
+people = {'Arham': 'Blue', 'Vinod': 'Purple', 'Jenny': 'Pink','Lisa': 'Yellow'}
 
-# tuplle1=tuple()
-# for i in range(len(list1)):
-#     for j in range(i+1, len(list1)):
-#         if list1[i][1] > list1[j][1]:
-#             tuplle1 = list1[i]
-#             list1[i] = list1[j]
-#             list1[j] = tuplle1
-# print(list1)    
+# Find out how many students are in the list
+num_students = len(people)
+print(f"A. Number of students: {num_students}")
+
+#Change Lisa’s favourite colour 
+people['Lisa'] = 'Green'
+
+#Remove 'Jenny' and her favourite colour
+del people['Jenny']
+
+#Sort 
+print("Sorted students and colours:")
+for name in sorted(people.keys()):
+    print(f"{name}: {people[name]}")
