@@ -1,7 +1,9 @@
-numbers = [19, 65, 57, 39, 152, 639, 121, 44, 90, 190]
-
-result = list(filter(lambda x: (x % 19 == 0 or x % 13 == 0), numbers))
-
-
-print("Original list:", numbers)
-print("Numbers divisible by 19 or 13:", result)
+student_details= [{'id' : 1, 'subject' : 'math', 'V' : 70, 'VI' : 82},
+{'id' : 2, 'subject' : 'math', 'V' : 73, 'VI' : 74},
+{'id' : 3, 'subject' : 'math', 'V' : 75, 'VI' : 86}]
+for i in student_details:
+        
+        i['V+VI'] = (i['V'] + i['VI'])/2
+        i.pop('V')
+        i.pop('VI')
+print(student_details)

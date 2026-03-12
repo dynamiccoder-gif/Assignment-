@@ -1,7 +1,4 @@
-
-num = [2, 3, 4, 5, 2, 6, 3, 2]
-
-
-result = list(set(num))
-
-print("Result:", result, "New list")
+string= input("Enter a string: ")
+for s in range(len(string)):
+     string= string[1:]+ string[0:1]
+     print(string)
