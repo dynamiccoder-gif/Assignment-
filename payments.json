@@ -1,0 +1,1 @@
+[{"id": "1", "member_id": "1", "amt": "1000", "type": "cash", "tran_time": "2026-03-21", "next_pay_date": "next month"}, {"id": "2", "member_id": "1", "amt": "10000", "type": "cash", "tran_time": "2026-03-21", "next_pay_date": "next month"}, {"id": "1001", "member_id": "2", "amt": "5000", "type": "cash", "tran_time": "2026-03-21", "next_pay_date": "next"}]
